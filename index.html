@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/jass.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div id= "search">
+    <input type="text" id="search-input" />
+    <button id="search-btn">Search</button>
+    <div id = "history">
+      
+    </div>
+
+  </div>
+  <div id= "weather">
+    <div id="city-selection-current">
+      <h3 id="city-name">Austin</h3>
+      <ul>
+        <li id="temp">temp</li>
+        <li id="wind">wind</li>
+        <li id="humidity">humidity</li>
+        <li id="uvi">uvi</li>
+      </ul>
+
+    </div>
+      
+    <div id="five-days">
+      <div id="day-1"></div>
+      <div id="day-2"></div>
+      <div id="day-3"></div>
+      <div id="day-4"></div>
+      <div id="day-5"></div>
+     
+    </div>
+
+  </div>
+
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
